@@ -1,5 +1,4 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic|Open+Sans+Condensed:700");
 
 
 html {
@@ -15,7 +14,6 @@ html {
 
 body {
     background: #f4e4ff;
-    /* background-image: url("/images/banner.jpg"); */
 }
 
     body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -30,19 +28,10 @@ body {
     }
 
 body, input, textarea, select {
-    font-family: 'Source Sans Pro';
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: 300;
     color: #5d5d5d;
     font-size: 14pt;
-}
-
-strong, b {
-    color: #252122;
-    font-weight: 400;
-}
-
-i, em {
-    font-style: italic;
 }
 
 sub {
@@ -55,12 +44,6 @@ sup {
     position: relative;
     top: -0.5em;
     font-size: 0.8em;
-}
-
-blockquote {
-    border-left: solid 0.75em #dddddd;
-    padding: 1em 0 1em 1.5em;
-    font-style: italic;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -76,6 +59,10 @@ h3 {
     font-size: 1.35em;
 }
 
+h4 {
+    font-size: 1.3em;
+}
+
 a {
     text-decoration: none;
 }
@@ -88,17 +75,6 @@ img {
         text-decoration: none;
     }
 
-hr {
-    border: 0;
-    border-top: solid 1px #dddddd;
-    height: 1px;
-    margin: 2em 0 2em 0;
-}
-
-p, ul, ol, dl, table {
-    margin-bottom: 2em;
-}
-
 #header {
     background-color: #94a7ff;
     position:static;
@@ -110,7 +86,6 @@ p, ul, ol, dl, table {
     justify-content: center;
     border-radius: 9px;
     font-size: 15px;
-    font-family: "Unica One", sans-serif;
     color: rgb(67, 26, 133);
 }
 
@@ -130,14 +105,37 @@ p, ul, ol, dl, table {
     margin-top: 25px;
     display: flex;
     justify-content: center;
+    margin-bottom: 6rem;
 }
 
 .box {
     height: 12rem;
-    max-width: 9.4rem;
     font-size: 10px;
     border-radius: 10px;
-    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.box h3 {
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+}
+
+.box-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-self: flex-end;
+    padding: 5px;
+}
+
+.box-info a {
+    color: red;
 }
 
 .row {
@@ -149,19 +147,28 @@ p, ul, ol, dl, table {
 }
 
 .post-container {
-    padding: 15px;
-    min-width: 9.4rem;
-    margin-top: 10px;
-}
-.box-image {
+    padding-top: 0;
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(150, 150, 150, 0.5); 
+    height: 15rem;
+    width: 11rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+
+.box-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .box-image > img {
     border-radius: 10px;
     object-fit: cover; 
+    margin-top: 0;
 }
 
 .nav-bar {
@@ -186,12 +193,6 @@ p, ul, ol, dl, table {
     font-size: 25px;
     color: rgb(67, 26, 133);
 }
-
-.unica-one-regular {
-    font-family: "Unica One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 
   .box-abrigo {
     display: flex; /* Use flexbox to align items horizontally */
