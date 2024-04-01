@@ -31,6 +31,14 @@
     
 </head>
 <body>
+
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined') 
+        {
+            navigator.serviceWorker.register('pwabuilder-sw.js')
+        }
+    </script>
+
     <div class="main-page">
 
         <header id="header">
