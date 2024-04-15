@@ -63,7 +63,7 @@ img {
 }
 
 .logo {
-   
+    
     justify-content: center;
 }
 
@@ -169,23 +169,22 @@ img {
     background-color: #94a7ff;
     position:fixed;
     width: 100%;
-    height: 4rem;
+    height: 5rem;
     bottom: 0;
-    padding: 15px;
-    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-icons {
+    width: 80%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    justify-content: space-around;
 }
 
 .nav-icons a {
-    font-size: 25px;
-    color: rgb(67, 26, 133);
+    font-size: 2rem;
+    color: white;
 }
 
   .box-abrigo {
