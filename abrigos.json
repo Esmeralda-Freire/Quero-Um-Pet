@@ -1,0 +1,26 @@
+[
+    {
+        "fotoAbrigo": "assets/images/pic12.jpg",
+        "nome": "Dogs Trust",
+        "distancia": "1km",
+        "status": "Aceitando cachorros"
+    },
+    {
+        "fotoAbrigo": "assets/images/pic09.jpg",
+        "nome": "Casa dos Bichos",
+        "distancia": "2km",
+        "status": "Aceitando animais"
+    },
+    {
+        "fotoAbrigo": "assets/images/pic10.jpg",
+        "nome": "Patinhas Felizes",
+        "distancia": "1km",
+        "status": "Aceitando gatos"
+    },
+    {
+        "fotoAbrigo": "assets/images/pic11.jpg",
+        "nome": "Vila Animal",
+        "distancia": "5km",
+        "status": "Aceitando animais"
+    }
+]
